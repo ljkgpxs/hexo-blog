@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 瓜地
 subtitle:
-description:
-keywords:
-author: John Doe
+description: 一个敲代码的瓜农
+keywords: linux, android, java
+author: ljkgpxs
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://ljkgpxs.xyz
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -54,7 +54,7 @@ index_generator:
   order_by: -date
   
 # Category & Tag
-default_category: uncategorized
+default_category: misc
 category_map:
 tag_map:
 
@@ -72,10 +72,41 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+feed:
+    type: atom
+    path: atom.xml
+    limit: 20
+    hub:
+    content:
+    content_limit:
+    content_limit_delim: ' '
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: replica
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:ljkgpxs/ljkgpxs.github.io.git
+
+#marked setting for markdown
+marked:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: true
+  smartLists: true
+  smartypants: true
+
+
+# Settings for replica theme
+location: China
+email: ljkgpxs@gmail.com
+
+gcs: 016798632908157788617:bd8v66f3y5k
+
+avatar: https://avatars0.githubusercontent.com/u/8355262?s=460&v=4
+social:
+  github: https://github.com/ljkgpxs
+  weibo: https://weibo.com/u/5248879371

@@ -1,7 +1,8 @@
 ---
 title: Mysql学习笔记（1）
 tags:
-  - 速查;笔记
+  - 速查
+  - 笔记
 url: 41.html
 id: 41
 categories:
