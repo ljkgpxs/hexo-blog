@@ -17,7 +17,7 @@ SDL2是通过MinGW的pacman安装的，在编译SDL程序的时候碰见
 /msys\_scripts/msys2-runtime/src/msys2-runtime/winsup/cygwin/lib/libcmain.c:39:(.text.startup+0x7f): relocation truncated to fit: R\_X86\_64\_PC32 against undefined symbol `WinMain'
 collect2: 错误：ld 返回 1
 Makefile:9: recipe for target 'all' failed
-make: *** \[all\] Error 1
+make: *** [all] Error 1
 ```
   
 

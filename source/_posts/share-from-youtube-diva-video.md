@@ -8,4 +8,5 @@ date: 2016-04-23 20:17:41
 tags:
 ---
 
-大陆访客需要梯子才能看。。 https://youtu.be/1b4o0Q4qY7A \[embed\]https://youtu.be/LYto1Vhkixg\[/embed\]
+大陆访客需要梯子才能看。。 
+{% iframe "https://www.youtube.com/embed/1b4o0Q4qY7A" %}

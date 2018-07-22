@@ -26,7 +26,7 @@ tags:
 
 对于Android 5.0 ~ 6.0, 可以使用以下命令去除叹号
 ```
-adb shell "settings put global captive\_portal\_server g.cn"
+adb shell "settings put global captive_portal_server g.cn"
 ```
 
 到了Android 7.0, 上面这个命令不能用了, 因为g.cn的HTTPS有问题, 好吧, 自己搭建
@@ -66,7 +66,7 @@ adb shell "settings put global captive\_portal\_server ljkgpxs.xyz"
 
 对于7.1.1以上, 储存URL的变量有变:
 ```
-adb shell"settings put global captive\_portal\_https\_url https://ljkgpxs.xyz/generate\_204"
+adb shell "settings put global captive\_portal\_https\_url https://ljkgpxs.xyz/generate\_204"
 ```
   
 

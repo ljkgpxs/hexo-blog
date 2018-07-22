@@ -19,15 +19,15 @@ tags:
 1.  重写父类函数时，子类函数要掉用父类函数进行初始化，例如重写Layer::onEnter()，在子类onEnter中要调用Layer::onEnter(); 否则会出现事件无法响应的后果，即使添加了Listener，回调函数也不会被调用
 2.  新版的cocos2dx已经不推荐使用Layer::setTouchEnabled和Layer::setKeyboardEnabled等类似函数进行事件监听器的初始化，建议自行添加事件监听器，应给类似这样使用事件监听
 ```    
-    keyboardListener = EventListenerKeyboard::create();
-    keyboardListener->onKeyPressed = CC_CALLBACK_2(ufoScence::onKeyPressed, this);
-    	keyboardListener->onKeyReleased = CC_CALLBACK_2(ufoScence::onKeyReleased, this);
-    _eventDispatcher->addEventListenerWithSceneGraphPriority(keyboardListener, this);
+keyboardListener = EventListenerKeyboard::create();
+keyboardListener->onKeyPressed = CC_CALLBACK_2(ufoScence::onKeyPressed, this);
+keyboardListener->onKeyReleased = CC_CALLBACK_2(ufoScence::onKeyReleased, this);
+_eventDispatcher->addEventListenerWithSceneGraphPriority(keyboardListener, this);
 ```    
     对于这一点，ProgramingGuide上有很多示例
 3.  当前场景使用物理引擎时，创建场景时要使用这种方法创建
 ```    
-    auto scene = Scene::createWithPhysics();
+auto scene = Scene::createWithPhysics();
 ```    
     否则物理引擎不起作用
 4.  对刚体使用applyForce时，如果刚体静止，施力之后不会改变刚体的运动状态，这是因为F=ma，力直接影响加速度，而applyForce是瞬时力，并不能造成刚体的运动状态变化; 相对的使用applyImpluse可以是改变刚体运动状态，使刚体接下来保持惯性运动，这是由于applyImpluse改变了刚体的冲量，直接影响物体的运动速度。 这一点，cocos2dx和unity3D差别很大，让我纳闷很久，这里有一篇更全面的解释：[http://www.07net01.com/zhishi/325699.html](http://www.07net01.com/zhishi/325699.html)

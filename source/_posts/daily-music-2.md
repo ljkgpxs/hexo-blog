@@ -8,6 +8,6 @@ date: 2016-06-28 11:12:31
 tags:
 ---
 
-**来自魔力红乐队的Maps，也是我最喜欢作品之一！**   \[audio mp3="http://ljkgpxs.xyz/wp-content/uploads/2016/06/Maroon-5-Maps.mp3"\]\[/audio\]
+**来自魔力红乐队的Maps，也是我最喜欢作品之一！**
+{% aplayer "Maps" "Maroon 5" /files/maps-maroon5.mp3 /images/maps.jpg %}
 
-![maps](http://ljkgpxs.xyz/wp-content/uploads/2016/06/maps.jpg)

@@ -151,19 +151,19 @@ $ brunch gemini
 
   
 ```
-\[ERROR\] Failed to execute goal org.apache.maven.plugins:maven-dependency-plugin:2.10:get (default-cli) on project standalone-pom: Couldn't download artifact: Could not transfer artifact org.cyanogenmod:gello:apk:40 from/to central (https://maven.cyanogenmod.org/artifactory/gello_prebuilds): sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
-\[ERROR\] org.cyanogenmod:gello:apk:40
-\[ERROR\] 
-\[ERROR\] from the specified remote repositories:
-\[ERROR\] central (https://repo.maven.apache.org/maven2, releases=true, snapshots=false),
-\[ERROR\] central (https://maven.cyanogenmod.org/artifactory/gello_prebuilds, releases=true, snapshots=true)
-\[ERROR\] -> \[Help 1\]
-\[ERROR\] 
-\[ERROR\] To see the full stack trace of the errors, re-run Maven with the -e switch.
-\[ERROR\] Re-run Maven using the -X switch to enable full debug logging.
-\[ERROR\] 
-\[ERROR\] For more information about the errors and possible solutions, please read the following articles:
-\[ERROR\] \[Help 1\] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-dependency-plugin:2.10:get (default-cli) on project standalone-pom: Couldn't download artifact: Could not transfer artifact org.cyanogenmod:gello:apk:40 from/to central (https://maven.cyanogenmod.org/artifactory/gello_prebuilds): sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+[ERROR] org.cyanogenmod:gello:apk:40
+[ERROR] 
+[ERROR] from the specified remote repositories:
+[ERROR] central (https://repo.maven.apache.org/maven2, releases=true, snapshots=false),
+[ERROR] central (https://maven.cyanogenmod.org/artifactory/gello_prebuilds, releases=true, snapshots=true)
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
 ```
 这是由于缺少SSL证书导致
 

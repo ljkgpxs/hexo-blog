@@ -19,7 +19,7 @@ CMakeFiles/Doodler.dir/Classes/HelloWorldScene.cpp.o：在函数‘Lobby::Lobby(
 /home/ljkgpxs/src/Doodler/Classes/Lobby.h:6：对‘vtable for Lobby’未定义的引用
 collect2: error: ld returned 1 exit status
 CMakeFiles/Doodler.dir/build.make:194: recipe for target 'bin/Doodler' failed
-make\[2\]: *** \[bin/Doodler\] Error 1
+make[2]: *** [bin/Doodler] Error 1
 ```
 导致这个错误的原因是没有对Lobby类的成员函数进行定义，根本原因是对应的cpp文件没有被编译
 

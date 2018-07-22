@@ -14,9 +14,9 @@ tags:
 
 虽然在网上找到了米5 32GB版的qcn文件，可是我并没有刷，我担心不能用，所以就送修了，修好后回来第一件事就用了QPST备份了QCN，在这里分享一下QCN
 
-下载：[MI5_64GB.qcn](http://ljkgpxs.xyz/?attachment_id=274)
+下载：[MI5_64GB.qcn](/files/mi5_64GB.zip)
 
-这个QCN中的IMEI我已经修改了，请各位根据自己的IMEI自行修改，修改之前，要把IMEI转换格式，这里有一个Windows下用的格式转换器：[戳我下载](http://ljkgpxs.xyz/?attachment_id=272)  
+这个QCN中的IMEI我已经修改了，请各位根据自己的IMEI自行修改，修改之前，要把IMEI转换格式，这里有一个Windows下用的格式转换器：[戳我下载](/files/IEMI_converter.rar)  
 
 第一个IMEI的位置开头是在qcn文件的2F48，qcn文件里我已经改成了11 11 11 11 11 11 11 11，请把转换后的IMEI填进去
 

@@ -134,7 +134,7 @@ config interface 'wan'
 
 之后树莓派断电, 树莓派自带网口接外网, USB网卡接路由器的LAN口, 路由器的WAN口不要接网线, 全部接好后插电启动就OK了, 图示如下:
 
-![](https://ljkgpxs.xyz/wp-content/uploads/2018/01/raspberry3_router.png)
+![](/images/raspberry3_router.png)
 
   
 

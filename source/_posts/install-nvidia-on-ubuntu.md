@@ -32,8 +32,8 @@ $ nvidia-settings
 ```
 注销再登录,Alt+空格，搜索opengl，选择混成器
 
-![screenshot3](http://ljkgpxs.xyz/wp-content/uploads/2016/05/screenshot3.png)
+![screenshot1](/images/nvidia-fix-screen1.png)
 
 重新设置一下渲染后端，保存后重启即可
 
-![screenshot4](http://ljkgpxs.xyz/wp-content/uploads/2016/05/screenshot4.png)
+![screenshot2](/images/nvidia-fix-screen2.png)

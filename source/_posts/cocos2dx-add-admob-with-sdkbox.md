@@ -107,4 +107,4 @@ if(sdkbox::PluginAdMob::isAvailable("testad"))
 
 这是博主的测试截图：
 
-  ![](https://ljkgpxs.xyz/wp-content/uploads/2017/05/flappybirdAdTest.png)
+  ![](/images/flappybirdAdTest.png)

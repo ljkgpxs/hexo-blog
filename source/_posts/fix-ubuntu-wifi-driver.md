@@ -27,7 +27,7 @@ $ sudo vim /etc/modprobe.d/rtl8723be.conf
 ```
 options rtl8723be fwlps=N ips=N
 ```
-![screenshot5](http://ljkgpxs.xyz/wp-content/uploads/2016/07/screenshot5.png)
+![screenshot5](/images/ubuntu-wifi-screen1.png)
 
 保存并退出，然后重启电脑就可以了。   
 

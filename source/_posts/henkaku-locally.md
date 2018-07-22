@@ -22,7 +22,6 @@ git安装和环境搭建之类的我就不说了（其实是我懒得说）
 
 首先到（gayhub）github下载源代码：
 ```
-
 git clone https://github.com/henkaku/henkaku.git
 ```
 然后有两种方法，先来介绍简单的，使用python和go
