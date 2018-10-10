@@ -88,6 +88,7 @@ theme: replica
 deploy:
   type: git
   repo: git@github.com:ljkgpxs/ljkgpxs.github.io.git
+  delete: false
 
 #marked setting for markdown
 marked:

@@ -5,6 +5,7 @@ id: 361
 categories:
   - Linux
 date: 2017-07-23 12:37:08
+updated: 2018-08-7 10:04:00
 tags:
 ---
 
@@ -14,15 +15,19 @@ tags:
 
 然后发现clevo-indicator这个程序,是蓝天的一个开源项目,给Linux用户使用,用来控制风扇转速, 安装步骤如下:
 
-  
+项目地址:~~https://github.com/SkyLandTW/clevo-indicator.git~~
+
+原项目的风速控制太猛了, 我稍加修改, 扇转速改变更柔和, 项目地址: https://github.com/ljkgpxs/clevo-indicator.git
+
+
 ```
 $ sudo apt install libappindicator3-dev  # 安装依赖
-$ git clone https://github.com/SkyLandTW/clevo-indicator.git
+$ git clone https://github.com/ljkgpxs/clevo-indicator.git
 $ cd clevo-indicator/
 $ make
 $ make install
 ```
-  
+
 
 最后直接运行, clevo-indicator, 它会定时监测cpu温度, 根据温度调节风扇转速.
 
@@ -30,10 +35,10 @@ $ make install
 
 为了然它登录桌面环境之后自动运行,打开终端,运行
 
-  
+
 ```
 $ gnome-session-properties
 ```
-  
+
 
 手动添加 /usr/local/bin/clevo-indicator, 这样就可以做到登录后自动后台运行, 至于别的桌面环境, 大家自行百度一下吧
